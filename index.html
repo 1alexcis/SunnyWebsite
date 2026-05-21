@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sunny Good Morning is an NFC alarm app that makes you get out of bed to turn it off.">
+    <title>Sunny Good Morning</title>
+    <link rel="preload" href="assets/app-icon.png" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="scroll-meter" aria-hidden="true"></div>
+    <header class="site-header" data-glass>
+      <a class="brand" href="index.html" aria-label="Sunny Good Morning home">
+        <img src="assets/app-icon.png" alt="" class="brand-mark">
+        <span>Sunny</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="team.html">Team</a>
+        <a href="socials.html">Socials</a>
+        <a class="nav-cta" href="https://apps.apple.com/us/app/sunny-good-morning/id6766795815" target="_blank" rel="noreferrer">App Store</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-home">
+        <div class="hero-backdrop" aria-hidden="true">
+          <div class="signal-grid"></div>
+          <div class="sun-path"></div>
+          <div class="wave-field wave-one"></div>
+          <div class="wave-field wave-two"></div>
+        </div>
+
+        <div class="hero-phone-wrap" data-parallax="-0.08">
+          <div class="phone-mockup hero-phone" data-tilt>
+            <div class="phone-shell">
+              <div class="phone-island"></div>
+              <div class="phone-screen alarm-screen">
+                <div class="screen-status">
+                  <span>7:00</span>
+                  <span>5G</span>
+                </div>
+                <div class="sun-face sun-big" aria-hidden="true">
+                  <span class="ray ray-1"></span>
+                  <span class="ray ray-2"></span>
+                  <span class="ray ray-3"></span>
+                  <span class="ray ray-4"></span>
+                  <span class="ray ray-5"></span>
+                  <span class="ray ray-6"></span>
+                  <span class="ray ray-7"></span>
+                  <span class="ray ray-8"></span>
+                  <span class="face-core">
+                    <span class="shine"></span>
+                    <span class="eye eye-left"></span>
+                    <span class="eye eye-right"></span>
+                    <span class="cheek cheek-left"></span>
+                    <span class="cheek cheek-right"></span>
+                    <span class="smile"></span>
+                  </span>
+                </div>
+                <p class="screen-kicker">Good morning.</p>
+                <h2>7:00 <span>AM</span></h2>
+                <p class="screen-copy">Find Sunny to stop the alarm.</p>
+                <div class="nfc-pulse" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container hero-content">
+          <p class="eyebrow" data-reveal>Sunny Good Morning</p>
+          <h1 data-reveal>Your alarm finally makes you get up.</h1>
+          <p class="hero-copy" data-reveal>
+            Sunny pairs your alarm with an NFC sticker across the room. When it rings,
+            the fastest way out is to stand up and scan the sticker.
+          </p>
+          <div class="hero-actions" data-reveal>
+            <a class="button button-primary" href="https://apps.apple.com/us/app/sunny-good-morning/id6766795815" target="_blank" rel="noreferrer">
+              Download on the App Store
+            </a>
+            <a class="button button-secondary" href="#how-it-works">See how it works</a>
+          </div>
+        </div>
+
+        <a class="hero-cue" href="#startup-proof" aria-label="Scroll to product section">
+          <span></span>
+        </a>
+      </section>
+
+      <section id="startup-proof" class="section proof-section">
+        <div class="container two-column">
+          <div class="section-copy" data-reveal>
+            <p class="eyebrow">Built for real mornings</p>
+            <h2>Regular alarms are too easy to ignore.</h2>
+            <p>
+              Sunny is for 8 AM lectures, early shifts, gym plans, and every alarm
+              you swear you will not snooze. Put the sticker far enough away that
+              you have to leave bed.
+            </p>
+          </div>
+          <div class="before-after" data-reveal data-tilt>
+            <div class="before-panel">
+              <span>Before Sunny</span>
+              <strong>8 alarms. 3 snoozes. Late again.</strong>
+            </div>
+            <div class="after-panel">
+              <span>After Sunny</span>
+              <strong>Alarm rings. You get up. Morning starts.</strong>
+            </div>
+            <div class="compare-handle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section how-section">
+        <div class="container">
+          <div class="section-heading center" data-reveal>
+            <p class="eyebrow">How it works</p>
+            <h2>One sticker. One job.</h2>
+            <p>Sunny keeps the flow simple so the morning decision is already made.</p>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card" data-reveal data-tilt>
+              <span class="step-number">01</span>
+              <h3>Set the alarm</h3>
+              <p>Choose the time, tone, repeat days, and alarm volume inside Sunny.</p>
+            </article>
+            <article class="step-card" data-reveal data-tilt>
+              <span class="step-number">02</span>
+              <h3>Place the sticker</h3>
+              <p>Pair an NFC sticker and put it across the room, near a door, desk, or bathroom mirror.</p>
+            </article>
+            <article class="step-card" data-reveal data-tilt>
+              <span class="step-number">03</span>
+              <h3>Scan to stop</h3>
+              <p>When the alarm rings, Sunny stays on until the right sticker is tapped.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app-showcase">
+        <div class="container showcase-layout">
+          <div class="section-copy" data-reveal>
+            <p class="eyebrow">Inside the app</p>
+            <h2>A warm interface with a stubborn little sun.</h2>
+            <p>
+              The app tracks wake-ups, streaks, and Sunny's growth. The design is
+              friendly, but the alarm flow is built around physical action.
+            </p>
+          </div>
+          <div class="mockup-rail" aria-label="Sunny app screen previews">
+            <div class="phone-mockup rail-phone" data-reveal data-tilt>
+              <div class="phone-shell">
+                <div class="phone-island"></div>
+                <div class="phone-screen streak-screen">
+                  <div class="screen-status">
+                    <span>7:04</span>
+                    <span>5G</span>
+                  </div>
+                  <div class="sun-face sun-small" aria-hidden="true">
+                    <span class="ray ray-1"></span><span class="ray ray-2"></span><span class="ray ray-3"></span><span class="ray ray-4"></span>
+                    <span class="ray ray-5"></span><span class="ray ray-6"></span><span class="ray ray-7"></span><span class="ray ray-8"></span>
+                    <span class="face-core"><span class="shine"></span><span class="eye eye-left"></span><span class="eye eye-right"></span><span class="cheek cheek-left"></span><span class="cheek cheek-right"></span><span class="smile"></span></span>
+                  </div>
+                  <p class="screen-kicker">Good morning.</p>
+                  <h2>1-day streak</h2>
+                  <div class="app-card progress-card">
+                    <span>Current state</span>
+                    <strong>Seedling</strong>
+                    <div class="progress-line"><i></i></div>
+                  </div>
+                  <div class="mini-grid">
+                    <span>On time<br><strong>78%</strong></span>
+                    <span>Best streak<br><strong>1 day</strong></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone-mockup rail-phone rail-phone-offset" data-reveal data-tilt>
+              <div class="phone-shell">
+                <div class="phone-island"></div>
+                <div class="phone-screen sticker-screen">
+                  <div class="screen-status">
+                    <span>7:10</span>
+                    <span>5G</span>
+                  </div>
+                  <div class="sticker-disc">
+                    <span></span>
+                    <i></i>
+                  </div>
+                  <p class="screen-kicker">NFC sticker</p>
+                  <h2>Place Sunny across the room.</h2>
+                  <ul class="check-list">
+                    <li>Far from your bed</li>
+                    <li>Easy to tap</li>
+                    <li>Flat surface</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone-mockup rail-phone" data-reveal data-tilt>
+              <div class="phone-shell">
+                <div class="phone-island"></div>
+                <div class="phone-screen setup-screen">
+                  <div class="screen-status">
+                    <span>7:00</span>
+                    <span>5G</span>
+                  </div>
+                  <h2>Add Alarm</h2>
+                  <div class="time-picker">
+                    <span>6</span><strong>7</strong><span>8</span>
+                    <span>58</span><strong>00</strong><span>02</span>
+                    <span>PM</span><strong>AM</strong><span></span>
+                  </div>
+                  <div class="settings-list">
+                    <span>Repeat <strong>Weekdays</strong></span>
+                    <span>Sound <strong>Classic</strong></span>
+                    <span>Volume <strong>70%</strong></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section campus-section">
+        <div class="container campus-card" data-reveal>
+          <div>
+            <p class="eyebrow">College mornings</p>
+            <h2>Made by students who know the problem.</h2>
+            <p>
+              Sunny started with a simple frustration: phone alarms are easy to
+              swipe away while half-asleep. We are building a wake-up flow that
+              gives your future self fewer excuses.
+            </p>
+          </div>
+          <a class="button button-dark" href="team.html">Meet the team</a>
+        </div>
+      </section>
+
+      <section class="section quote-section">
+        <div class="container">
+          <div class="quote-card" data-reveal data-tilt>
+            <img src="assets/app-icon.png" alt="" class="quote-mark">
+            <blockquote>
+              "I actually got out of bed instead of snoozing."
+            </blockquote>
+            <p>Early tester</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta">
+        <div class="container center" data-reveal>
+          <img src="assets/app-icon.png" alt="" class="cta-icon">
+          <h2>Wake up with Sunny.</h2>
+          <p>Download the app, pair your sticker, and make tomorrow morning harder to ignore.</p>
+          <div class="hero-actions center-actions">
+            <a class="button button-primary" href="https://apps.apple.com/us/app/sunny-good-morning/id6766795815" target="_blank" rel="noreferrer">Open App Store</a>
+            <a class="button button-secondary" href="socials.html">Follow the build</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/app-icon.png" alt="" class="brand-mark">
+          <span>Sunny</span>
+        </a>
+        <p>Sunny Good Morning. Built at UCLA.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
